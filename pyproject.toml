@@ -1,0 +1,11 @@
+[project]
+name = "flight-agent"
+version = "0.1.0"
+description = "Demo CrewAI agent that parses travel-request e-mails and returns flight options"
+
+# dependências que o servidor deve instalar
+dependencies = [
+    "crewai[tools]>=0.29",
+    "python-dotenv",
+    "requests"
+]
