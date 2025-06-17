@@ -1,0 +1,3 @@
+crewai[tools]>=0.29
+python-dotenv
+requests
